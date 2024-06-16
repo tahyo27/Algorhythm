@@ -3,7 +3,7 @@ package baekjun;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class baek1978 {
+public class Baek1978 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class baek1978 {
         }
         sc.close();
 
-        long count =  Arrays.stream(numbers).filter(baek1978::isPrime).count();
+        long count =  Arrays.stream(numbers).filter(Baek1978::isPrime).count();
 
         System.out.println(count);
     }
