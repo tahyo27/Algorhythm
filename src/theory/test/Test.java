@@ -20,5 +20,6 @@ public class Test {
         Collections.sort(numbers);
 
         System.out.println(numbers);
+
     }
 }
